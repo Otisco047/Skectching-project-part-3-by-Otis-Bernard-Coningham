@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+
+#score {
+    margin-left: 10px;
+    float: left;
+}
+
+#timer {
+    margin-right: 10px;
+    float: right;
+}
+
+#sketch_to_be_drawn {
+    color: blue;
+}
