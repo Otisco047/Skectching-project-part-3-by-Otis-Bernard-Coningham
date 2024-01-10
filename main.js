@@ -47,7 +47,7 @@ function check_sketch() {
         timer_check = "completed";
         timer_counter = 0;
     }
-    if (timer_check == "completed") {
+    if (timer_check == "completed" || answer_holder == "set") {
         timer_check = "";
         answer_holder = "";
         updateCanvas();
